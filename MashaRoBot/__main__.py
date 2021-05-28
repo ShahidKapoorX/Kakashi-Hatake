@@ -361,9 +361,9 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                " I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc. "
                " I have a note keeping system, blacklists, and even predetermined replies on certain keywords. "
                " I check for admins' permissions before executing any command and more stuffs "
-                 \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://www.github.com/JassManak1125/emcee).
-                 If you have any question about Rikudo senin, let us know at @Its_JassManak.""",
+               " \n_Emcee's licensed under the GNU General Public License v3.0_ "
+               " Here is the [💾Repository](https://www.github.com/JassManak1125/emcee). "
+                " If you have any questions about Kakashi ,let us know at @Its_JassManak ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
