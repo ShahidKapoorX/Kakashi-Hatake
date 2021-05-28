@@ -34,7 +34,7 @@ async def Lycia(_, message):
         return
     text = message.text.split(None, 1)[1]
     lycia = text.replace(" ", "%20")
-    m = await message.reply_text("Emcee Is Best...")
+    m = await message.reply_text("ᴋᴀᴋᴀꜱʜɪ Is Best...")
     try:
         L = await fetch(f"https://api.affiliateplus.xyz/api/chatbot?message={lycia}&botname=Emcee&ownername=Pranav&user=1")
         chatbot = L["message"]
@@ -43,7 +43,7 @@ async def Lycia(_, message):
     except Exception as e:
         await m.edit(str(e))
         return
-    await m.edit("Made By satyanand leecher...")
+    await m.edit("Made By Jass Manak leecher...")
     LyciaVoice = await ai_lycia(VoiceAi)
     await m.edit("Repyping...")
     await message.reply_audio(audio=LyciaVoice, title=chatbot, performer=name)
