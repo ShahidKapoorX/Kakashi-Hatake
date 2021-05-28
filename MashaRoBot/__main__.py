@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝙷𝙴𝚈,my name is Haguromo Otsusuki/n
-𝙸'𝙰𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴𝙳 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! BY SATYA AND EMCEE DEVS 𝙲𝙻𝙸𝙲𝙺` *📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂 [.](https://telegra.ph/file/36c57221ea00d88fbcd89.jpg)
+Hey, my name is кαкαѕнι нαтαкє.
+I'm an Anime Themed Group Management Bot! By Jass Manak and emcee devs Click `*📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂*` Button below to explore more about me and my functions [.](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD HAGUROMO TO YOUR GROUP ➕️", url="t.me/rikudo_senin_bot?startgroup=true"),
+            text="➕️ ADD кαкαѕнι TO YOUR GROUP ➕️", url="t.me/HatakeRoBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
@@ -89,7 +89,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✨Owner✨", url="http://t.me/satyanandatripathi"),
+            text="✨Owner✨", url="http://t.me/Its_JassManak"),
         InlineKeyboardButton(
             text="👥SUPPORT👥", url="https://t.me/domin8orsupport"),
     ],
@@ -102,10 +102,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*Rikudo Senin comes with many special features in it*༆
+༆*кαкαѕнι нαтαкє comes with many special features in it*༆
 ꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF EMCEE*꧂
 𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/36c57221ea00d88fbcd89.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)
 """
 
 
@@ -354,16 +354,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Haguromo Otsusuki*, a powerful group management bot built to help you manage your group easily.
-                 ❍ I can restrict users.
-                 ❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 ❍ I have an advanced anti-flood system.
-                 ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 ❍ I check for admins' permissions before executing any command and more stuffs
+            text=" ℹ️ I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily. "
+                 I can restrict users.
+                 I can greet users with customizable welcome messages and even set a group's rules.
+                 I have an advanced anti-flood system.
+                 I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 I check for admins' permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://www.github.com/satyanandatripathi/emcee).
-                 If you have any question about Rikudo senin, let us know at @satyanandatripathi.""",
+                 Here is the [💾Repository](https://www.github.com/JassManak1125/emcee).
+                 If you have any question about Rikudo senin, let us know at @Its_JassManak.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -389,8 +389,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Haguromo Otsusuki*
-                 \nHere is the [Source Code](https://GitHub.com/satyanandatripathi/emcee) .""",
+            text=""" Hi..🤗 I'm *кαкαѕнι нαтαкє*
+                 \nHere is the [Source Code](https://GitHub.com/JassManak1125/emcee) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
