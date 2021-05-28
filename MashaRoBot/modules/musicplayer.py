@@ -22,13 +22,13 @@ __help__ = """
             
  ᴋᴀᴋᴀꜱʜɪ ᴠᴄ ᴘʟᴀʏᴇʀ plays music in your group's voice chat
  
- Assistant name >> ꧁ @Kakashi_VCPlayer ꧂
+ Assistant name >> ꧁ @Kakashi_MusicPlayer ꧂
  
 <b> Setting up </b>
 1) Make bot admin
 2) Start a voice chat
 3) Try `/play [song name]` for the first time by an admin
-*) If userbot joined enjoy music, If not add @Kakashi_VCPlayer to your group and retry
+*) If userbot joined enjoy music, If not add @Kakashi_MusicPlayer to your group and retry
 <b> Commands </b>
 =>> Song Playing 🎶
   /play: Play song using youtube music
@@ -46,7 +46,7 @@ __help__ = """
   /playlist: Shows playlist
 =>> More tools 📲
   /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-  /userbotjoin: Invite @Kakashi_VCPlayer Userbot to your chat
+  /userbotjoin: Invite @Kakashi_MusicPlayer Userbot to your chat
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins with manage group
 <b> PLEASE NOTE THIS SERVICE IS UNSTABLE AND CAN BE STOPPED ANYTIME </b>
 """
