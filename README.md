@@ -1,18 +1,18 @@
-# RIKUDO SENIN GROUP MANAGER BOT
+#кαкαѕнι нαтαкє
 
-HAGUROMO OTSUSUKI IS ADVANCE GROUP MANAGER BOT FOR GEEKS 
+кαкαѕнι нαтαкє is advanded group management for geeks
 
-CLICK ON BELOW IMAGE TO DEPLOY ON HEROKU 
+Click on below image to deploy on heroku
 
-[![DEPLOY](https://telegra.ph/file/eb96601d279cbbe5538f9.jpg)](https://heroku.com/deploy?template=https://github.com/satyanandatripathi/EMCEE)
+[![DEPLOY](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)](https://heroku.com/deploy?template=https://github.com/JassManak1125/EMCEE)
 
-Keep supporting us 😊
+Keep supporting us 😉
 
-<a href="https://github.com/satyanandatripathi/emcee" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/satyanandatripathi/emcee" />
+<a href="https://github.com/JassManak1125/emcee" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/JassManak1125/emcee" />
 <a href="https://t.me/Emcee_Support" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> 
 
 
 Your beloved:-
 
 [EMCEE DEVS](https://t.me/Emcee_Devs)
-[SATYANAND](https://t.me/satyanandatripathi)
+[Jass Manak](https://t.me/satyanandatripathi)
