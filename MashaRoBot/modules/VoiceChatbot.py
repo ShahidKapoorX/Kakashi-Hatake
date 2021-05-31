@@ -27,10 +27,10 @@ async def ai_lycia(url):
     return ai_name
 
 
-@LYCIA.on_message(filters.command("Emcee"))
+@LYCIA.on_message(filters.command("Kakashi"))
 async def Lycia(_, message):
     if len(message.command) < 2:
-        await message.reply_text("Lycia AI Voice Chatbot")
+        await message.reply_text("Kakashi AI Voice Chatbot")
         return
     text = message.text.split(None, 1)[1]
     lycia = text.replace(" ", "%20")
