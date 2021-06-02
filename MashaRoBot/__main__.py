@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey, my name is кαкαѕнι нαтαкє.
-I'm an Anime Themed Group Management Bot! By Jass Manak and emcee devs Click `*📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂*` Button below to explore more about me and my functions [.](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)
+I'm an Anime Themed Group Management Bot! By Jass Manak Click `*📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂*` Button below to explore more about me and my functions [.](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)
 """
 
 buttons = [
@@ -89,12 +89,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✨Owner✨", url="http://t.me/Its_JassManak"),
+            text="Owner✨", url="http://t.me/Its_JassManak"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/domin8orsupport"),
+            text="SUPPORT👥", url="https://t.me/Kakashi_Support"),
     ],
     [  
-        InlineKeyboardButton(text="Thanks to", url="https://t.me/emcee_support"),
+        InlineKeyboardButton(text="Thanks to", url="https://t.me/Kakashi_Support"),
     ], 
     
 ]
@@ -103,9 +103,9 @@ buttons = [
 
 HELP_STRINGS = """
 ༆*кαкαѕнι нαтαкє comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF EMCEE*꧂
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Kakashi*꧂
 𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Kakashi_Support* [.](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)
 """
 
 
