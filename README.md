@@ -4,7 +4,7 @@
 
 Click on below image to deploy on heroku
 
-[![DEPLOY](https://telegra.ph/file/db4698cf9943a77af8320.jpg)](https://heroku.com/deploy?template=https://github.com/ShahidKapoorX/Kakashi-Hatake)
+[![DEPLOY](https://telegra.ph/file/156d2bd5d97b142ac81d1.jpg)](https://heroku.com/deploy?template=https://github.com/ShahidKapoorX/Kakashi-Hatake)
 
 Keep supporting us 😉
 
