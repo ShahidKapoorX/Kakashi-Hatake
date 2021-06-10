@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey, my name is кαкαѕнι нαтαкє.
-I'm an Anime Themed Group Management Bot! By Jass Manak Click `*📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂*` Button below to explore more about me and my functions [.](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)
+Hey, my name is 「 Λʏᴀᴋᴀ 」.
+I'm an Anime Themed Group Management Bot! By @IamShahidX and @Its_JassManak Click `📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂` Button below to explore more about me and my functions [.](https://telegra.ph/file/d44db19a59a072af59b8d.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD кαкαѕнι TO YOUR GROUP ➕️", url="t.me/HatakeRoBot?startgroup=true"),
+            text="➕️ ADD 「 Λʏᴀᴋᴀ 」 TO YOUR GROUP ➕️", url="t.me/AyakaXBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
@@ -89,7 +89,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Owner✨", url="http://t.me/Its_JassManak"),
+            text="Owner✨", url="http://t.me/IamShahidX"),
         InlineKeyboardButton(
             text="SUPPORT👥", url="https://t.me/Kakashi_Support"),
     ],
@@ -102,10 +102,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*кαкαѕнι нαтαкє comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Kakashi*꧂
+*「 Λʏᴀᴋᴀ 」 comes with many special features in it*
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF 「 Λʏᴀᴋᴀ 」*꧂
 𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Kakashi_Support* [.](https://telegra.ph/file/95a8d8b221d77f3af97af.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Kakashi_Support* [.](https://telegra.ph/file/d44db19a59a072af59b8d.jpg)
 """
 
 
@@ -354,16 +354,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=" ℹ️ I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily. "
+            text=" ℹ️ I'm *「 Λʏᴀᴋᴀ 」*, a powerful group management bot built to help you manage your group easily. "
                " I can restrict users. "
                " I can greet users with customizable welcome messages and even set a group's rules. "
                " I have an advanced anti-flood system. "
                " I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc. "
                " I have a note keeping system, blacklists, and even predetermined replies on certain keywords. "
                " I check for admins' permissions before executing any command and more stuffs "
-               " \n_Emcee's licensed under the GNU General Public License v3.0_ "
-               " Here is the [💾Repository](https://www.github.com/JassManak1125/emcee). "
-                " If you have any questions about Kakashi ,let us know at @Its_JassManak ",
+               " \n_Ayaka's licensed under the GNU General Public License v3.0_ "
+               " Here is the [💾Repository](https://www.github.com/SHAHIDKAPOORX/KAKASHI-HATAKE). "
+                " If you have any questions about 「 Λʏᴀᴋᴀ 」 ,let us know at @IamShahidX or @Its_JassManak ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -389,8 +389,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *кαкαѕнι нαтαкє*
-                 \nHere is the [Source Code](https://GitHub.com/JassManak1125/emcee) .""",
+            text=""" Hi..🤗 I'm *「 Λʏᴀᴋᴀ 」*
+                 \nHere is the [Source Code](https://GitHub.com/SHAHIDKAPOORX/KAKASHI-HATAKE) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -637,7 +637,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1663464481 and DONATION_LINK:
+        if OWNER_ID != 1819508148 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
