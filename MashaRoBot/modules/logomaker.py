@@ -18,7 +18,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('Creating your logo...wait a while!')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./MashaRoBot/resources/opbg.jpg')
@@ -27,7 +27,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./MashaRoBot/resources/Vamoire Wars.otf", 330)
+    font = ImageFont.truetype("./MashaRoBot/resources/Vampire Wars.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -37,7 +37,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=25, stroke_fill="pink")
     fname2 = "LogoByEmcee.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Created By ᴋᴀᴋᴀꜱʜɪ ʜᴀᴛᴀᴋᴇ")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By 「 Λʏᴀᴋᴀ 」")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -61,12 +61,12 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./MashaRoBot/resources/blackbg.jpg')
+    img = Image.open('./MashaRoBot/resources/opbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "white"
-    shadowcolor = "blue"
+    shadowcolor = "green"
     font = ImageFont.truetype("./MashaRoBot/resources/Chopsic.ttf", 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
@@ -74,14 +74,14 @@ async def lego(event):
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
+    draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="yellow")
     fname2 = "LogoByEmcee.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Created By ᴋᴀᴋᴀꜱʜɪ ʜᴀᴛᴀᴋᴇ")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By 「 Λʏᴀᴋᴀ 」")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @Emcee_Support, {e}')
+   await event.reply(f'Error Report @Kakashi_Support, {e}')
 
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
